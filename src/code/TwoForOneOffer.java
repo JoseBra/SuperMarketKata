@@ -1,8 +1,5 @@
 package code;
 
-/**
- * Created by infor on 26/08/2016.
- */
 public class TwoForOneOffer implements Offer {
     private Product product;
 
@@ -16,8 +13,8 @@ public class TwoForOneOffer implements Offer {
     }
 
     @Override
-    public Integer getProductAmount() {
-        return 2;
+    public double getProductAmount() {
+        return 2d;
     }
 
     @Override

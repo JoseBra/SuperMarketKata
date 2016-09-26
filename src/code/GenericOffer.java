@@ -1,14 +1,11 @@
 package code;
 
-/**
- * Created by infor on 26/08/2016.
- */
 public class GenericOffer implements Offer {
     private Product product;
     private double price;
-    private Integer productAmount;
+    private double productAmount;
 
-    public GenericOffer(Product product, double price, Integer productAmount) {
+    public GenericOffer(Product product, double price, double productAmount) {
         this.product = product;
         this.price = price;
         this.productAmount = productAmount;
@@ -20,7 +17,7 @@ public class GenericOffer implements Offer {
     }
 
     @Override
-    public Integer getProductAmount() {
+    public double getProductAmount() {
         return this.productAmount;
     }
 

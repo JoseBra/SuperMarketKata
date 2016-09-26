@@ -2,14 +2,11 @@ package code;
 
 import org.junit.Test;
 
-/**
- * Created by infor on 26/08/2016.
- */
 public class Product {
-    String name;
-    double price;
-    String type;
-    String barCode;
+    private String name;
+    private double price;
+    private String type; //remove this and use polymorphism
+    private String barCode;
 
     @Override
     public boolean equals(Object o) {
